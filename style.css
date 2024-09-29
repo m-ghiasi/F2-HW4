@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Iranian Sans', sans-serif;
+                                                
+}
+header {
+    height: 65px;
+    display: flex;
+    /* justify-content: space-between;  */
+    
+}
+header div {
+    height: 100px;
+}
+.menu-icon {
+    background-image: url(./assets/menu.svg);
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo-el {
+    background-image: url(./assets/LOGO.png);
+    width: 95px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user-icon {
+    background-image: url(./assets/user.png);
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
