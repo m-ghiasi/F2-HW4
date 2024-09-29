@@ -23,7 +23,7 @@ header div {
     width: 24px;
     height: 24px;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     border: none;
     outline: none;
 }
@@ -78,9 +78,20 @@ header div {
     align-items: center;
 
 }
-.travel-info input {
+.travel-info form select{
     width: 320px;
     height: 40px;
     border: 1px solid #DFDFDF;
     border-radius: 8px;
+    direction: rtl;   
+     padding: 0 20px;
+     font-size: 12px;
+     font-weight: 400;
 }
+select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+
