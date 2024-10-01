@@ -5,61 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
                 
     <title>responsive</title>
 </head>
 <body>
-    <header>
-        <div class="user">
-            <img href="./assets/user.png" width="24" height="24" class="user-icon"></img>
-        </div>
-        <div class="logo">
-            <a href="">
-                <img href="./assets/logo.png" width="95" height="32" class="logo-el"></img>
+    <header >
+        <div class="container flex center-item">
+            <a href=""  class="ham-menue">
+                <img src="./assets/menu (1).svg" width="24" height="24" alt="">
             </a>
-        </div>
+            <a href="">
+                <img  class="logo" src="./assets/logo.png" alt="logo of bilitio" width="148" height="48">
+            </a>
+    
+    
+            <nav class="horizental">
+                <ul class="flex center-item ">
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">بیمه مسافرتی</a></li>
+                    <li><a href="#">سفرهای من</a></li>
+                    <li class=" flex center-item">
+                        <a href="#">سایر موارد</a>
+                        <img src="./assets/arrow-down.png" width="24" height="23" alt="">
+                    </li>
+                    
+                </ul>
+            </nav>
+    
+    
+            <div class="support flex center-item ">
+                <div class="call flex center-item ">
+                    <span>021-4045 پشتیبانی</span>
+                    <img src="./assets/call.png" alt="">
+                </div>
+                <button class="login flex center-item ">
+                    <img class="white-user" src="./assets/user.svg" alt="">
+                    
+                    <span>ورود/ ثبت نام</span>
+                </button>
+                <img class="gray-user" src="./assets/user (1).png" alt="">
+    
+            </div>
 
-        <div class="menu">
-            <img href="./assets/menu (2).svg"  width="24" height="24" class="menu-icon"></img>
-        </div>  
+
+        </div>
+       
+    
        
 
     </header>
-
     <main>
+        <div class="banner">
 
-        <div class="banner"></div>
-        <section class="serch-box">
-            <div class="buttons">
-                <span class="buttons-ways">چند مسیره</span>
-                <span class="buttons-ways">رفت و برگشت </span>
-                <span class="buttons-ways select">یک طرفه</span>
-            </div>
-            <div class="travel-info">
-                <form  class="aline">
-
-                    <input placeholder="مبدا" type="text" class="">
-                    <input  type="text" class="">
-                    <input placeholder="تاریخ رفت" type="text" class="">
-                    <input placeholder="تعداد مسافر" type="text" class="">
-                    <input placeholder="کلاس پرواز" type="text" class="">
-                    <button>جستجو <img src="./assets/search-normal.png" width="16px" height="16px" alt=""></button>
-                    <!-- <label class="start-lable" for="cities">مبدا</label> -->
-                    <!-- <select name="cities" id="cities"  >
-                      <option value=""></option>
-                      <option value="تهران">تهران</option>
-                      <option value="شیراز">شیراز</option>
-                      <option value="اهواز">اهواز</option>
-                      <option value="آبادان">آبادان</option>
-                    </select>                    -->
-                    
-                </form>
-            </div>
+        </div>
 
 
-        </section>
     </main>
-    <footer></footer>
+
+   
+    <footer></footer> 
 </body>
 </html>
