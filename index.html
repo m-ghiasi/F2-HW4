@@ -30,7 +30,7 @@
                     <li><a href="#">سفرهای من</a></li>
                     <li class=" flex center-item">
                         <a href="#">سایر موارد</a>
-                        <img src="./assets/arrow-down.png" width="24" height="23" alt="">
+                        <img src="./assets/arrow-down.png" width="24" height="24" alt="">
                     </li>
                     
                 </ul>
@@ -53,32 +53,38 @@
 
 
         </div>
+        <div class="banner"> </div>
        
     
        
 
     </header>
-    <main>
-        <div class="banner"> </div>
-        <div class="travel-info">
-            <div class="buttons">
-                <button>رفت</button>
-                <button>ذفت و برگشت </button>
-                <button>چند سفره</button>
+    <main class="container">
+        
+            <div class="travel-info flex">
+                <div class="buttons">
+                    <button>رفت</button>
+                    <button class="select-btn">رفت و برگشت </button>
+                    <button>چند سفره</button>
+                </div>
+                <div class="detail flex">
+                    <input  class="same-style" placeholder="مبدا" type="text">
+                    <a class="flex center-item" href="">
+                        <img src="./assets/arrow-2.png" width="16" height="16">
+                    </a>
+                    <input  class="same-style" placeholder="مقصد" type="text">
+                    <input  class="same-style" placeholder="تاریخ رفت و برگشت" type="text">
+                    <input  class="same-style"  placeholder="تعداد مسافر"type="text">
+                    <input  class="same-style"  placeholder="کلاس پرواز"type="text">
+                    <button class="search same-style select-btn flex center-item " >
+                        <img src="./assets/search-normal.svg" width="16" height="16" alt="">
+                        <span>جستجو</span>
+                    </button>
+                </div>
+                
             </div>
-            <div class="detail">
-                <input placeholder="مبدا" type="text">
-                <input placeholder="مقصد" type="text">
-                <input placeholder="تاریخ رفت و برگشت" type="text">
-                <input  placeholder="تعداد مسافر"type="text">
-                <input  placeholder="کلاس پرواز"type="text">
-                <button>
-                    <img src="" alt="">
-                    <span>جستجو</span>
-                </button>
-            </div>
-            
-        </div>
+        
+        
 
 
 
