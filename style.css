@@ -88,6 +88,7 @@ body {
  main {
     height: 100vh;
     position: relative;
+    /* overflow: auto; */
  }
  .main-container {
     position: absolute;
@@ -95,7 +96,7 @@ body {
  }
 
  .travel-info {
-    height: 191px;
+    /* height: 191px; */
     position: absolute;
     background-color: white;
     width: 100%;
@@ -159,6 +160,7 @@ body {
     justify-content: space-evenly;
     margin-top: 50px;
     padding: 15px 0;
+    text-align: center;
     
 
  }
@@ -184,6 +186,8 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     height: 66px;
+    border-radius: 4px;
+    gap: 10px;
  }
 
  .app-name {
@@ -198,6 +202,37 @@ body {
     color: #606060;
  }
 
+
+ /* footer*/
+
+ footer {
+   padding-top: 10px;
+ }
+ 
+ .footer-container {
+   justify-content: space-between;
+ }
+ .short-links {
+   flex-direction: column;
+   gap: 10px;
+ }
+ .short-links a {
+   text-decoration: none;
+   color: #606060;
+
+ }
+ .image-links {
+   justify-content: space-between;
+   padding-top: 30px;
+ }
+ .useful-link p {
+   font-weight: 700;
+ }
+ .address {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+ }
 
  
 
@@ -220,9 +255,9 @@ body {
         display: none;
     }
     
-    button span {
+    /* button span {
         display: none;
-    }
+    } */
     
     .call {
         display: none;
@@ -242,10 +277,66 @@ body {
     }
 
     /* main*/
+    main {
+      top: 200px;
+    }
 
     .banner {
         background-image: url(./assets/home\ page\ screen.png);
         height: 140px;
+        width: 390px;
+    }
+    .travel-info {
+      position:relative;
+    }
+    .detail {
+      flex-direction: column;
+    }
+    .arr {
+      display: none;
+    }
+    .detail input {
+      width: 100%;
+    }
+    .detail button {
+      width: 100%;
+    }
+
+    .main-container {
+      /* display: none; */
+      /* overflow-x:scroll; */
+      top: 438px;
+    }
+    .collection div.vertical {
+      flex-direction: row;
+    }
+    .collection div img {
+      width: 236px;
+      height: 156px;
+    }
+    .other-services {
+     max-width: 390px;
+
+      height: 130px;
+   }
+   .other-services a img {
+      width: 37.5px;
+      height: 37.5px;
+   }
+   .other-services a span {
+      font-size: 12px;
+      font-weight: 400;
+      width: 63px;
+
+   }
+
+
+
+
+
+    /* footer*/
+    footer {
+      display: none;
     }
 
 
